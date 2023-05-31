@@ -1,0 +1,76 @@
+footer {
+  width: 80%;
+  height: 100rem;
+  margin: 0 auto;
+  background-color: lightgray;
+}
+
+footer .gallery {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: white;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+footer .gallery div:nth-of-type(1) {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+footer .gallery div:nth-of-type(2) {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+footer .gallery div:nth-of-type(3) {
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+footer .gallery div:nth-of-type(4) {
+  grid-column: 4/5;
+  grid-row: 1/2;
+}
+footer .gallery div:nth-of-type(5) {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+footer .gallery div:nth-of-type(6) {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+footer .gallery div:nth-of-type(7) {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+footer .gallery div:nth-of-type(8) {
+  grid-column: 4/5;
+  grid-row: 2/3;
+}
+
+footer .gallery div {
+  width: 100%;
+  height: 45rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+footer .gallery div img {
+  width: 100%;
+  height: 25rem;
+  object-fit: cover;
+}
+
+footer .gallery div h5 {
+  color: lightskyblue;
+  font-size: 2rem;
+}
+
+footer .gallery div h4 {
+  color: lightgreen;
+  font-size: 2rem;
+}

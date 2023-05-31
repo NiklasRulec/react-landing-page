@@ -1,0 +1,47 @@
+h2 {
+  color: white;
+}
+
+header {
+  width: 100vw;
+  height: 60rem;
+  background-color: green;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.stripe {
+  height: 1px;
+  width: 30rem;
+  background-color: white;
+}
+
+p {
+  max-width: 70rem;
+  line-height: 3rem;
+}
+
+article {
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.stripeVertical {
+  height: 10rem;
+  width: 1px;
+  background-color: white;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 10rem;
+  width: 30rem;
+}
